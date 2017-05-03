@@ -1,0 +1,837 @@
+{
+  "_comment" : "Created with OWL2VOWL (version 0.2.0), http://vowl.visualdataweb.org",
+  "namespace" : [ ],
+  "header" : {
+    "languages" : [ "IRI-based", "undefined" ],
+    "iri" : "http://www.semanticweb.org/מכüדא/ontologies/2017/3/untitled-ontology-6",
+    "other" : {
+      "comment" : [ {
+        "identifier" : "comment",
+        "language" : "undefined",
+        "value" : "Îםעמכמדטÿ חהמנמגמדמ מבנאחא זטחםט",
+        "type" : "label"
+      } ]
+    }
+  },
+  "metrics" : {
+    "classCount" : 25,
+    "datatypeCount" : 0,
+    "objectPropertyCount" : 15,
+    "datatypePropertyCount" : 0,
+    "propertyCount" : 15,
+    "nodeCount" : 25,
+    "axiomCount" : 109,
+    "individualCount" : 0
+  },
+  "class" : [ {
+    "id" : "class6",
+    "type" : "owl:Class"
+  }, {
+    "id" : "class23",
+    "type" : "owl:Class"
+  }, {
+    "id" : "class7",
+    "type" : "owl:Class"
+  }, {
+    "id" : "class16",
+    "type" : "owl:Class"
+  }, {
+    "id" : "class13",
+    "type" : "owl:Class"
+  }, {
+    "id" : "class14",
+    "type" : "owl:Class"
+  }, {
+    "id" : "class17",
+    "type" : "owl:Class"
+  }, {
+    "id" : "class5",
+    "type" : "owl:Class"
+  }, {
+    "id" : "class15",
+    "type" : "owl:Class"
+  }, {
+    "id" : "class4",
+    "type" : "owl:Class"
+  }, {
+    "id" : "class9",
+    "type" : "owl:Class"
+  }, {
+    "id" : "class2",
+    "type" : "owl:Class"
+  }, {
+    "id" : "class11",
+    "type" : "owl:Class"
+  }, {
+    "id" : "class21",
+    "type" : "owl:Class"
+  }, {
+    "id" : "class10",
+    "type" : "owl:Class"
+  }, {
+    "id" : "class18",
+    "type" : "owl:Class"
+  }, {
+    "id" : "class19",
+    "type" : "owl:Class"
+  }, {
+    "id" : "class20",
+    "type" : "owl:Class"
+  }, {
+    "id" : "class1",
+    "type" : "owl:Class"
+  }, {
+    "id" : "class22",
+    "type" : "owl:Class"
+  }, {
+    "id" : "class3",
+    "type" : "owl:Class"
+  }, {
+    "id" : "class25",
+    "type" : "owl:Class"
+  }, {
+    "id" : "class8",
+    "type" : "owl:Class"
+  }, {
+    "id" : "class12",
+    "type" : "owl:Class"
+  }, {
+    "id" : "class24",
+    "type" : "owl:Class"
+  }, {
+    "id" : "class27",
+    "type" : "owl:intersectionOf"
+  }, {
+    "id" : "class26",
+    "type" : "owl:intersectionOf"
+  }, {
+    "id" : "class29",
+    "type" : "owl:intersectionOf"
+  }, {
+    "id" : "class28",
+    "type" : "owl:intersectionOf"
+  } ],
+  "classAttribute" : [ {
+    "id" : "class6",
+    "label" : {
+      "IRI-based" : "Zakalivanie"
+    },
+    "iri" : "http://www.semanticweb.org/מכüדא/ontologies/2017/3/untitled-ontology-6#Zakalivanie",
+    "subClasses" : [ "class23" ],
+    "superClasses" : [ "class19" ],
+    "instances" : 0
+  }, {
+    "id" : "class23",
+    "label" : {
+      "IRI-based" : "Temperaturnyy_komfort"
+    },
+    "iri" : "http://www.semanticweb.org/מכüדא/ontologies/2017/3/untitled-ontology-6#Temperaturnyy_komfort",
+    "subClasses" : [ "class3", "class17" ],
+    "superClasses" : [ "class6" ],
+    "instances" : 0
+  }, {
+    "id" : "class7",
+    "label" : {
+      "IRI-based" : "Vosstanovlenie_rezervov_organizma"
+    },
+    "iri" : "http://www.semanticweb.org/מכüדא/ontologies/2017/3/untitled-ontology-6#Vosstanovlenie_rezervov_organizma",
+    "subClasses" : [ "class3", "class20" ],
+    "superClasses" : [ "class14" ],
+    "instances" : 0
+  }, {
+    "id" : "class16",
+    "label" : {
+      "IRI-based" : "Dvigatel'naya_aktivnost'"
+    },
+    "iri" : "http://www.semanticweb.org/מכüדא/ontologies/2017/3/untitled-ontology-6#Dvigatel'naya_aktivnost'",
+    "subClasses" : [ "class4" ],
+    "superClasses" : [ "class19" ],
+    "instances" : 0
+  }, {
+    "id" : "class13",
+    "label" : {
+      "IRI-based" : "Pravil'noe_povedenie_v_sotsiume"
+    },
+    "iri" : "http://www.semanticweb.org/מכüדא/ontologies/2017/3/untitled-ontology-6#Pravil'noe_povedenie_v_sotsiume",
+    "subClasses" : [ "class22" ],
+    "superClasses" : [ "class19" ],
+    "instances" : 0
+  }, {
+    "id" : "class14",
+    "label" : {
+      "IRI-based" : "Chetkiy_rezhim_dnya"
+    },
+    "iri" : "http://www.semanticweb.org/מכüדא/ontologies/2017/3/untitled-ontology-6#Chetkiy_rezhim_dnya",
+    "subClasses" : [ "class7" ],
+    "superClasses" : [ "class19" ],
+    "instances" : 0
+  }, {
+    "id" : "class17",
+    "label" : {
+      "IRI-based" : "Ustoychivost'_k_perepadam_temperatury"
+    },
+    "iri" : "http://www.semanticweb.org/מכüדא/ontologies/2017/3/untitled-ontology-6#Ustoychivost'_k_perepadam_temperatury",
+    "superClasses" : [ "class23" ],
+    "instances" : 0
+  }, {
+    "id" : "class5",
+    "label" : {
+      "IRI-based" : "Adekvatnoe_vospriyatie_situatsii"
+    },
+    "iri" : "http://www.semanticweb.org/מכüדא/ontologies/2017/3/untitled-ontology-6#Adekvatnoe_vospriyatie_situatsii",
+    "subClasses" : [ "class2" ],
+    "superClasses" : [ "class11" ],
+    "instances" : 0
+  }, {
+    "id" : "class15",
+    "label" : {
+      "IRI-based" : "Nayti_logicheskoe_reshenie_problem"
+    },
+    "iri" : "http://www.semanticweb.org/מכüדא/ontologies/2017/3/untitled-ontology-6#Nayti_logicheskoe_reshenie_problem",
+    "superClasses" : [ "class18" ],
+    "instances" : 0
+  }, {
+    "id" : "class4",
+    "label" : {
+      "IRI-based" : "Vysokiy_uroven'_immuniteta"
+    },
+    "iri" : "http://www.semanticweb.org/מכüדא/ontologies/2017/3/untitled-ontology-6#Vysokiy_uroven'_immuniteta",
+    "subClasses" : [ "class3" ],
+    "superClasses" : [ "class16" ],
+    "instances" : 0
+  }, {
+    "id" : "class9",
+    "label" : {
+      "IRI-based" : "Ratsional'noe_pitanie"
+    },
+    "iri" : "http://www.semanticweb.org/מכüדא/ontologies/2017/3/untitled-ontology-6#Ratsional'noe_pitanie",
+    "subClasses" : [ "class12" ],
+    "superClasses" : [ "class19" ],
+    "instances" : 0
+  }, {
+    "id" : "class2",
+    "label" : {
+      "IRI-based" : "Sokratit'_psikhologicheskie_nagruzki"
+    },
+    "iri" : "http://www.semanticweb.org/מכüדא/ontologies/2017/3/untitled-ontology-6#Sokratit'_psikhologicheskie_nagruzki",
+    "superClasses" : [ "class5" ],
+    "instances" : 0
+  }, {
+    "id" : "class11",
+    "label" : {
+      "IRI-based" : "Psikhicheskoe_zdorov'ye"
+    },
+    "iri" : "http://www.semanticweb.org/מכüדא/ontologies/2017/3/untitled-ontology-6#Psikhicheskoe_zdorov'ye",
+    "subClasses" : [ "class5" ],
+    "superClasses" : [ "class19" ],
+    "instances" : 0
+  }, {
+    "id" : "class21",
+    "label" : {
+      "IRI-based" : "Chistotu_svoego_tela"
+    },
+    "iri" : "http://www.semanticweb.org/מכüדא/ontologies/2017/3/untitled-ontology-6#Chistotu_svoego_tela",
+    "subClasses" : [ "class10", "class3" ],
+    "superClasses" : [ "class1" ],
+    "instances" : 0
+  }, {
+    "id" : "class10",
+    "label" : {
+      "IRI-based" : "Izbezhat'_mnozhestvo_zabolevaniy"
+    },
+    "iri" : "http://www.semanticweb.org/מכüדא/ontologies/2017/3/untitled-ontology-6#Izbezhat'_mnozhestvo_zabolevaniy",
+    "superClasses" : [ "class21", "class8" ],
+    "instances" : 0
+  }, {
+    "id" : "class18",
+    "label" : {
+      "IRI-based" : "Normal'noe_soznanie_cheloveka"
+    },
+    "iri" : "http://www.semanticweb.org/מכüדא/ontologies/2017/3/untitled-ontology-6#Normal'noe_soznanie_cheloveka",
+    "subClasses" : [ "class15", "class24" ],
+    "superClasses" : [ "class8" ],
+    "instances" : 0
+  }, {
+    "id" : "class19",
+    "label" : {
+      "IRI-based" : "Zdorovyy_obraz_zhizni"
+    },
+    "iri" : "http://www.semanticweb.org/מכüדא/ontologies/2017/3/untitled-ontology-6#Zdorovyy_obraz_zhizni",
+    "subClasses" : [ "class14", "class1", "class8", "class6", "class16", "class13", "class11", "class9" ],
+    "instances" : 0
+  }, {
+    "id" : "class20",
+    "label" : {
+      "IRI-based" : "Rabotosposobnost'"
+    },
+    "iri" : "http://www.semanticweb.org/מכüדא/ontologies/2017/3/untitled-ontology-6#Rabotosposobnost'",
+    "superClasses" : [ "class12", "class7" ],
+    "instances" : 0
+  }, {
+    "id" : "class1",
+    "label" : {
+      "IRI-based" : "Gigiena"
+    },
+    "iri" : "http://www.semanticweb.org/מכüדא/ontologies/2017/3/untitled-ontology-6#Gigiena",
+    "subClasses" : [ "class21" ],
+    "superClasses" : [ "class19" ],
+    "instances" : 0
+  }, {
+    "id" : "class22",
+    "label" : {
+      "IRI-based" : "Blagopriyatnoe_vozdeystvie_ot_sotsiuma"
+    },
+    "iri" : "http://www.semanticweb.org/מכüדא/ontologies/2017/3/untitled-ontology-6#Blagopriyatnoe_vozdeystvie_ot_sotsiuma",
+    "subClasses" : [ "class25", "class24" ],
+    "superClasses" : [ "class13" ],
+    "instances" : 0
+  }, {
+    "id" : "class3",
+    "label" : {
+      "IRI-based" : "Protivostoyat'_infektsiyam"
+    },
+    "iri" : "http://www.semanticweb.org/מכüדא/ontologies/2017/3/untitled-ontology-6#Protivostoyat'_infektsiyam",
+    "superClasses" : [ "class21", "class12", "class23", "class7", "class4" ],
+    "instances" : 0
+  }, {
+    "id" : "class25",
+    "label" : {
+      "IRI-based" : "Obmenivat'sya_informatsiey"
+    },
+    "iri" : "http://www.semanticweb.org/מכüדא/ontologies/2017/3/untitled-ontology-6#Obmenivat'sya_informatsiey",
+    "superClasses" : [ "class22" ],
+    "instances" : 0
+  }, {
+    "id" : "class8",
+    "label" : {
+      "IRI-based" : "Otkaz_ot_vrednykh_privychek"
+    },
+    "iri" : "http://www.semanticweb.org/מכüדא/ontologies/2017/3/untitled-ontology-6#Otkaz_ot_vrednykh_privychek",
+    "subClasses" : [ "class10", "class18" ],
+    "superClasses" : [ "class19" ],
+    "instances" : 0
+  }, {
+    "id" : "class12",
+    "label" : {
+      "IRI-based" : "Neobkhodimye_poleznye_veshchestva"
+    },
+    "iri" : "http://www.semanticweb.org/מכüדא/ontologies/2017/3/untitled-ontology-6#Neobkhodimye_poleznye_veshchestva",
+    "subClasses" : [ "class3", "class20" ],
+    "superClasses" : [ "class9" ],
+    "instances" : 0
+  }, {
+    "id" : "class24",
+    "label" : {
+      "IRI-based" : "Poluchat'_udovol'stvie_ot_zhizni"
+    },
+    "iri" : "http://www.semanticweb.org/מכüדא/ontologies/2017/3/untitled-ontology-6#Poluchat'_udovol'stvie_ot_zhizni",
+    "superClasses" : [ "class22", "class18" ],
+    "instances" : 0
+  }, {
+    "id" : "class27",
+    "label" : {
+      "IRI-based" : "anonymous"
+    },
+    "instances" : 0,
+    "intersection" : [ "class15", "class24" ]
+  }, {
+    "id" : "class26",
+    "label" : {
+      "IRI-based" : "anonymous"
+    },
+    "instances" : 0,
+    "intersection" : [ "class12", "class7" ]
+  }, {
+    "id" : "class29",
+    "label" : {
+      "IRI-based" : "anonymous"
+    },
+    "instances" : 0,
+    "intersection" : [ "class14", "class21", "class12", "class23", "class4" ]
+  }, {
+    "id" : "class28",
+    "label" : {
+      "IRI-based" : "anonymous"
+    },
+    "instances" : 0,
+    "intersection" : [ "class25", "class24" ]
+  } ],
+  "property" : [ {
+    "id" : "property43",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "property41",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "property40",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "property38",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "property46",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "property45",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "property44",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "property2",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "property1",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "property29",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "property4",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "property3",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "property26",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "property36",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "property25",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "property39",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "property28",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "property35",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "property27",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "property37",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "property22",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "property21",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "property24",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "property33",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "property23",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "property20",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "property34",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "property32",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "property9",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "property42",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "property6",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "property5",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "property8",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "property7",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "property19",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "property18",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "property15",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "property14",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "property17",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "property16",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "property11",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "property10",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "property13",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "property12",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "property31",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "property30",
+    "type" : "rdfs:SubClassOf"
+  } ],
+  "propertyAttribute" : [ {
+    "id" : "property43",
+    "label" : {
+      "IRI-based" : "Obespechivaet5"
+    },
+    "iri" : "http://www.semanticweb.org/מכüדא/ontologies/2017/3/untitled-ontology-6#Obespechivaet5",
+    "domain" : "class14",
+    "range" : "class7"
+  }, {
+    "id" : "property41",
+    "label" : {
+      "IRI-based" : "Obespechivaet6"
+    },
+    "iri" : "http://www.semanticweb.org/מכüדא/ontologies/2017/3/untitled-ontology-6#Obespechivaet6",
+    "domain" : "class8",
+    "range" : "class18"
+  }, {
+    "id" : "property40",
+    "label" : {
+      "IRI-based" : "Obespechivaet7"
+    },
+    "iri" : "http://www.semanticweb.org/מכüדא/ontologies/2017/3/untitled-ontology-6#Obespechivaet7",
+    "domain" : "class1",
+    "range" : "class21"
+  }, {
+    "id" : "property38",
+    "label" : {
+      "IRI-based" : "Obespechivaet8"
+    },
+    "iri" : "http://www.semanticweb.org/מכüדא/ontologies/2017/3/untitled-ontology-6#Obespechivaet8",
+    "domain" : "class13",
+    "range" : "class22"
+  }, {
+    "id" : "property46",
+    "label" : {
+      "IRI-based" : "Obespechivaet2"
+    },
+    "iri" : "http://www.semanticweb.org/מכüדא/ontologies/2017/3/untitled-ontology-6#Obespechivaet2",
+    "domain" : "class11",
+    "range" : "class5"
+  }, {
+    "id" : "property45",
+    "label" : {
+      "IRI-based" : "Obespechivaet3"
+    },
+    "iri" : "http://www.semanticweb.org/מכüדא/ontologies/2017/3/untitled-ontology-6#Obespechivaet3",
+    "domain" : "class9",
+    "range" : "class12"
+  }, {
+    "id" : "property44",
+    "label" : {
+      "IRI-based" : "Obespechivaet4"
+    },
+    "iri" : "http://www.semanticweb.org/מכüדא/ontologies/2017/3/untitled-ontology-6#Obespechivaet4",
+    "domain" : "class6",
+    "range" : "class23"
+  }, {
+    "id" : "property2",
+    "label" : {
+      "IRI-based" : "Subclass Of"
+    },
+    "domain" : "class3",
+    "range" : "class23"
+  }, {
+    "id" : "property1",
+    "label" : {
+      "IRI-based" : "Subclass Of"
+    },
+    "domain" : "class23",
+    "range" : "class6"
+  }, {
+    "id" : "property29",
+    "label" : {
+      "IRI-based" : "Subclass Of"
+    },
+    "domain" : "class18",
+    "range" : "class8"
+  }, {
+    "id" : "property4",
+    "label" : {
+      "IRI-based" : "Subclass Of"
+    },
+    "domain" : "class3",
+    "range" : "class7"
+  }, {
+    "id" : "property3",
+    "label" : {
+      "IRI-based" : "Subclass Of"
+    },
+    "domain" : "class17",
+    "range" : "class23"
+  }, {
+    "id" : "property26",
+    "label" : {
+      "IRI-based" : "Subclass Of"
+    },
+    "domain" : "class25",
+    "range" : "class22"
+  }, {
+    "id" : "property36",
+    "label" : {
+      "IRI-based" : "Pozvolyaet4"
+    },
+    "iri" : "http://www.semanticweb.org/מכüדא/ontologies/2017/3/untitled-ontology-6#Pozvolyaet4",
+    "domain" : "class21",
+    "range" : "class10"
+  }, {
+    "id" : "property25",
+    "label" : {
+      "IRI-based" : "Subclass Of"
+    },
+    "domain" : "class21",
+    "range" : "class1"
+  }, {
+    "id" : "property39",
+    "label" : {
+      "IRI-based" : "Pozvolyaet5"
+    },
+    "iri" : "http://www.semanticweb.org/מכüדא/ontologies/2017/3/untitled-ontology-6#Pozvolyaet5",
+    "domain" : "class22",
+    "range" : "class28"
+  }, {
+    "id" : "property28",
+    "label" : {
+      "IRI-based" : "Subclass Of"
+    },
+    "domain" : "class10",
+    "range" : "class8"
+  }, {
+    "id" : "property35",
+    "label" : {
+      "IRI-based" : "Pozvolyaet2"
+    },
+    "iri" : "http://www.semanticweb.org/מכüדא/ontologies/2017/3/untitled-ontology-6#Pozvolyaet2",
+    "domain" : "class5",
+    "range" : "class2"
+  }, {
+    "id" : "property27",
+    "label" : {
+      "IRI-based" : "Subclass Of"
+    },
+    "domain" : "class24",
+    "range" : "class22"
+  }, {
+    "id" : "property37",
+    "label" : {
+      "IRI-based" : "Pozvolyaet3"
+    },
+    "iri" : "http://www.semanticweb.org/מכüדא/ontologies/2017/3/untitled-ontology-6#Pozvolyaet3",
+    "domain" : "class18",
+    "range" : "class27"
+  }, {
+    "id" : "property22",
+    "label" : {
+      "IRI-based" : "Subclass Of"
+    },
+    "domain" : "class13",
+    "range" : "class19"
+  }, {
+    "id" : "property21",
+    "label" : {
+      "IRI-based" : "Subclass Of"
+    },
+    "domain" : "class16",
+    "range" : "class19"
+  }, {
+    "id" : "property24",
+    "label" : {
+      "IRI-based" : "Subclass Of"
+    },
+    "domain" : "class9",
+    "range" : "class19"
+  }, {
+    "id" : "property33",
+    "label" : {
+      "IRI-based" : "Povyshaet2"
+    },
+    "iri" : "http://www.semanticweb.org/מכüדא/ontologies/2017/3/untitled-ontology-6#Povyshaet2",
+    "domain" : "class23",
+    "range" : "class17"
+  }, {
+    "id" : "property23",
+    "label" : {
+      "IRI-based" : "Subclass Of"
+    },
+    "domain" : "class11",
+    "range" : "class19"
+  }, {
+    "id" : "property20",
+    "label" : {
+      "IRI-based" : "Subclass Of"
+    },
+    "domain" : "class6",
+    "range" : "class19"
+  }, {
+    "id" : "property34",
+    "label" : {
+      "IRI-based" : "Povyshaet"
+    },
+    "iri" : "http://www.semanticweb.org/מכüדא/ontologies/2017/3/untitled-ontology-6#Povyshaet",
+    "domain" : "class26",
+    "range" : "class20"
+  }, {
+    "id" : "property32",
+    "label" : {
+      "IRI-based" : "Obespechivaet"
+    },
+    "iri" : "http://www.semanticweb.org/מכüדא/ontologies/2017/3/untitled-ontology-6#Obespechivaet",
+    "attributes" : [ "symmetric" ],
+    "domain" : "class16",
+    "range" : "class4"
+  }, {
+    "id" : "property9",
+    "label" : {
+      "IRI-based" : "Subclass Of"
+    },
+    "domain" : "class2",
+    "range" : "class5"
+  }, {
+    "id" : "property42",
+    "label" : {
+      "IRI-based" : "Pozvolyaet"
+    },
+    "iri" : "http://www.semanticweb.org/מכüדא/ontologies/2017/3/untitled-ontology-6#Pozvolyaet",
+    "domain" : "class29",
+    "range" : "class3"
+  }, {
+    "id" : "property6",
+    "label" : {
+      "IRI-based" : "Subclass Of"
+    },
+    "domain" : "class4",
+    "range" : "class16"
+  }, {
+    "id" : "property5",
+    "label" : {
+      "IRI-based" : "Subclass Of"
+    },
+    "domain" : "class20",
+    "range" : "class7"
+  }, {
+    "id" : "property8",
+    "label" : {
+      "IRI-based" : "Subclass Of"
+    },
+    "domain" : "class7",
+    "range" : "class14"
+  }, {
+    "id" : "property7",
+    "label" : {
+      "IRI-based" : "Subclass Of"
+    },
+    "domain" : "class22",
+    "range" : "class13"
+  }, {
+    "id" : "property19",
+    "label" : {
+      "IRI-based" : "Subclass Of"
+    },
+    "domain" : "class8",
+    "range" : "class19"
+  }, {
+    "id" : "property18",
+    "label" : {
+      "IRI-based" : "Subclass Of"
+    },
+    "domain" : "class1",
+    "range" : "class19"
+  }, {
+    "id" : "property15",
+    "label" : {
+      "IRI-based" : "Subclass Of"
+    },
+    "domain" : "class15",
+    "range" : "class18"
+  }, {
+    "id" : "property14",
+    "label" : {
+      "IRI-based" : "Subclass Of"
+    },
+    "domain" : "class3",
+    "range" : "class21"
+  }, {
+    "id" : "property17",
+    "label" : {
+      "IRI-based" : "Subclass Of"
+    },
+    "domain" : "class14",
+    "range" : "class19"
+  }, {
+    "id" : "property16",
+    "label" : {
+      "IRI-based" : "Subclass Of"
+    },
+    "domain" : "class24",
+    "range" : "class18"
+  }, {
+    "id" : "property11",
+    "label" : {
+      "IRI-based" : "Subclass Of"
+    },
+    "domain" : "class12",
+    "range" : "class9"
+  }, {
+    "id" : "property10",
+    "label" : {
+      "IRI-based" : "Subclass Of"
+    },
+    "domain" : "class3",
+    "range" : "class4"
+  }, {
+    "id" : "property13",
+    "label" : {
+      "IRI-based" : "Subclass Of"
+    },
+    "domain" : "class10",
+    "range" : "class21"
+  }, {
+    "id" : "property12",
+    "label" : {
+      "IRI-based" : "Subclass Of"
+    },
+    "domain" : "class5",
+    "range" : "class11"
+  }, {
+    "id" : "property31",
+    "label" : {
+      "IRI-based" : "Subclass Of"
+    },
+    "domain" : "class20",
+    "range" : "class12"
+  }, {
+    "id" : "property30",
+    "label" : {
+      "IRI-based" : "Subclass Of"
+    },
+    "domain" : "class3",
+    "range" : "class12"
+  } ]
+}
